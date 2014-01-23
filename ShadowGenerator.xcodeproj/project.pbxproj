@@ -18,6 +18,11 @@
 		9D8528D018906415002A7A49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8528AF18906415002A7A49 /* Cocoa.framework */; };
 		9D8528D818906415002A7A49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D8528D618906415002A7A49 /* InfoPlist.strings */; };
 		9D8528DA18906415002A7A49 /* ShadowGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8528D918906415002A7A49 /* ShadowGeneratorTests.m */; };
+		9D8528E518906A94002A7A49 /* DragAndDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8528E418906A94002A7A49 /* DragAndDropImageView.m */; };
+		9D8528E818907083002A7A49 /* ShadowGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8528E718907083002A7A49 /* ShadowGenerator.m */; };
+		9D8528EC189071D1002A7A49 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8528EB189071D1002A7A49 /* QuartzCore.framework */; };
+		9D8528EE18909490002A7A49 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8528ED18909490002A7A49 /* ImageIO.framework */; };
+		9D8528F01890949D002A7A49 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8528EF1890949D002A7A49 /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,14 @@
 		9D8528D518906415002A7A49 /* ShadowGeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowGeneratorTests-Info.plist"; sourceTree = "<group>"; };
 		9D8528D718906415002A7A49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D8528D918906415002A7A49 /* ShadowGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowGeneratorTests.m; sourceTree = "<group>"; };
+		9D8528E318906A94002A7A49 /* DragAndDropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragAndDropImageView.h; sourceTree = "<group>"; };
+		9D8528E418906A94002A7A49 /* DragAndDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragAndDropImageView.m; sourceTree = "<group>"; };
+		9D8528E618907083002A7A49 /* ShadowGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowGenerator.h; sourceTree = "<group>"; };
+		9D8528E718907083002A7A49 /* ShadowGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowGenerator.m; sourceTree = "<group>"; };
+		9D8528E91890717C002A7A49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D8528EB189071D1002A7A49 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9D8528ED18909490002A7A49 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		9D8528EF1890949D002A7A49 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D8528F01890949D002A7A49 /* CoreServices.framework in Frameworks */,
+				9D8528EE18909490002A7A49 /* ImageIO.framework in Frameworks */,
+				9D8528EC189071D1002A7A49 /* QuartzCore.framework in Frameworks */,
 				9D8528B018906415002A7A49 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +111,10 @@
 		9D8528AE18906415002A7A49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D8528EF1890949D002A7A49 /* CoreServices.framework */,
+				9D8528ED18909490002A7A49 /* ImageIO.framework */,
+				9D8528EB189071D1002A7A49 /* QuartzCore.framework */,
+				9D8528E91890717C002A7A49 /* CoreGraphics.framework */,
 				9D8528AF18906415002A7A49 /* Cocoa.framework */,
 				9D8528CE18906415002A7A49 /* XCTest.framework */,
 				9D8528B118906415002A7A49 /* Other Frameworks */,
@@ -120,6 +140,10 @@
 				9D8528C418906415002A7A49 /* MainMenu.xib */,
 				9D8528C718906415002A7A49 /* Images.xcassets */,
 				9D8528B618906415002A7A49 /* Supporting Files */,
+				9D8528E318906A94002A7A49 /* DragAndDropImageView.h */,
+				9D8528E418906A94002A7A49 /* DragAndDropImageView.m */,
+				9D8528E618907083002A7A49 /* ShadowGenerator.h */,
+				9D8528E718907083002A7A49 /* ShadowGenerator.m */,
 			);
 			path = ShadowGenerator;
 			sourceTree = "<group>";
@@ -252,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D8528E818907083002A7A49 /* ShadowGenerator.m in Sources */,
+				9D8528E518906A94002A7A49 /* DragAndDropImageView.m in Sources */,
 				9D8528C318906415002A7A49 /* AppDelegate.m in Sources */,
 				9D8528BC18906415002A7A49 /* main.m in Sources */,
 			);
