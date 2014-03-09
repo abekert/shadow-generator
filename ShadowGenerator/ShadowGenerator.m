@@ -4,9 +4,22 @@
 
 + (void)shadowImageFromURL:(NSURL *)url toURL:(NSURL *)outputUrl withBlurRadius:(CGFloat)blurRadius
 {
+    // Read original image
     CIImage *input = [CIImage imageWithContentsOfURL:url];
+
+    // Generate shadow
+    CGImageRef shadowImage = [ShadowGenerator shadowImageFromImage:input withBlurRadius:blurRadius];
     
-    //1) mono color
+    // Write to disk
+    CGImageWriteToFile(shadowImage, outputUrl);
+    
+    // Emty the memory
+    CGImageRelease(shadowImage);
+}
+
++ (CGImageRef)shadowImageFromImage:(CIImage *)input withBlurRadius:(CGFloat)blurRadius
+{
+    // 1) mono color
     CIFilter *monochrome = [CIFilter filterWithName:@"CIColorMatrix"];
     [monochrome setDefaults];
     [monochrome setValue:[CIVector vectorWithX:0 Y:0 Z:0 W:0] forKey:@"inputRVector"];
@@ -17,24 +30,20 @@
     [monochrome setValue:input forKey:@"inputImage"];
     CIImage *outputCIImage = [monochrome valueForKey:@"outputImage"];
     
-    //2) blur
+    // 2) blur
     CIFilter *blur = [CIFilter filterWithName:@"CIGaussianBlur"];
     [blur setDefaults];
     [blur setValue:outputCIImage forKey:@"inputImage"];
     [blur setValue:blurRadius ? @(blurRadius) : @10.0 forKey:@"inputRadius"];
     outputCIImage = [blur valueForKey:@"outputImage"];
     
-    //Create a CIContext
+    // Create a CIContext
     CIContext* context = [[CIContext alloc] init];
     
-    //Create an CGImageRef from the output CIImage
+    // Create an CGImageRef from the output CIContext
     CGImageRef imgRef = [context createCGImage:outputCIImage fromRect:outputCIImage.extent];
     
-    //Write to disk
-    CGImageWriteToFile(imgRef, outputUrl);
-    
-    //Emty the memory
-    CGImageRelease(imgRef);
+    return imgRef;
 }
 
 void CGImageWriteToFile(CGImageRef image, NSURL *nsurl) {
