@@ -14,10 +14,6 @@
 		9D8528C318906415002A7A49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8528C218906415002A7A49 /* AppDelegate.m */; };
 		9D8528C618906415002A7A49 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D8528C418906415002A7A49 /* MainMenu.xib */; };
 		9D8528C818906415002A7A49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D8528C718906415002A7A49 /* Images.xcassets */; };
-		9D8528CF18906415002A7A49 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8528CE18906415002A7A49 /* XCTest.framework */; };
-		9D8528D018906415002A7A49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8528AF18906415002A7A49 /* Cocoa.framework */; };
-		9D8528D818906415002A7A49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D8528D618906415002A7A49 /* InfoPlist.strings */; };
-		9D8528DA18906415002A7A49 /* ShadowGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8528D918906415002A7A49 /* ShadowGeneratorTests.m */; };
 		9D8528E518906A94002A7A49 /* DragAndDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8528E418906A94002A7A49 /* DragAndDropImageView.m */; };
 		9D8528E818907083002A7A49 /* ShadowGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8528E718907083002A7A49 /* ShadowGenerator.m */; };
 		9D8528EC189071D1002A7A49 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8528EB189071D1002A7A49 /* QuartzCore.framework */; };
@@ -25,21 +21,9 @@
 		9D8528F01890949D002A7A49 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8528EF1890949D002A7A49 /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9D8528D118906415002A7A49 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9D8528A418906415002A7A49 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D8528AB18906415002A7A49;
-			remoteInfo = ShadowGenerator;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		9D8528AC18906415002A7A49 /* ShadowGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D8528AF18906415002A7A49 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		9D8528B218906415002A7A49 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		9D8528B318906415002A7A49 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9D8528B418906415002A7A49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9D8528B718906415002A7A49 /* ShadowGenerator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowGenerator-Info.plist"; sourceTree = "<group>"; };
 		9D8528B918906415002A7A49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -50,11 +34,6 @@
 		9D8528C218906415002A7A49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9D8528C518906415002A7A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		9D8528C718906415002A7A49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9D8528CD18906415002A7A49 /* ShadowGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D8528CE18906415002A7A49 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9D8528D518906415002A7A49 /* ShadowGeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowGeneratorTests-Info.plist"; sourceTree = "<group>"; };
-		9D8528D718906415002A7A49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9D8528D918906415002A7A49 /* ShadowGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowGeneratorTests.m; sourceTree = "<group>"; };
 		9D8528E318906A94002A7A49 /* DragAndDropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragAndDropImageView.h; sourceTree = "<group>"; };
 		9D8528E418906A94002A7A49 /* DragAndDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragAndDropImageView.m; sourceTree = "<group>"; };
 		9D8528E618907083002A7A49 /* ShadowGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowGenerator.h; sourceTree = "<group>"; };
@@ -77,15 +56,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D8528CA18906415002A7A49 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D8528D018906415002A7A49 /* Cocoa.framework in Frameworks */,
-				9D8528CF18906415002A7A49 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				9D8528B518906415002A7A49 /* ShadowGenerator */,
-				9D8528D318906415002A7A49 /* ShadowGeneratorTests */,
 				9D8528AE18906415002A7A49 /* Frameworks */,
 				9D8528AD18906415002A7A49 /* Products */,
 			);
@@ -103,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				9D8528AC18906415002A7A49 /* ShadowGenerator.app */,
-				9D8528CD18906415002A7A49 /* ShadowGeneratorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,20 +84,9 @@
 				9D8528EB189071D1002A7A49 /* QuartzCore.framework */,
 				9D8528E91890717C002A7A49 /* CoreGraphics.framework */,
 				9D8528AF18906415002A7A49 /* Cocoa.framework */,
-				9D8528CE18906415002A7A49 /* XCTest.framework */,
-				9D8528B118906415002A7A49 /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9D8528B118906415002A7A49 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9D8528B218906415002A7A49 /* AppKit.framework */,
-				9D8528B318906415002A7A49 /* CoreData.framework */,
 				9D8528B418906415002A7A49 /* Foundation.framework */,
 			);
-			name = "Other Frameworks";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9D8528B518906415002A7A49 /* ShadowGenerator */ = {
@@ -160,24 +117,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9D8528D318906415002A7A49 /* ShadowGeneratorTests */ = {
-			isa = PBXGroup;
-			children = (
-				9D8528D918906415002A7A49 /* ShadowGeneratorTests.m */,
-				9D8528D418906415002A7A49 /* Supporting Files */,
-			);
-			path = ShadowGeneratorTests;
-			sourceTree = "<group>";
-		};
-		9D8528D418906415002A7A49 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9D8528D518906415002A7A49 /* ShadowGeneratorTests-Info.plist */,
-				9D8528D618906415002A7A49 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,24 +137,6 @@
 			productReference = 9D8528AC18906415002A7A49 /* ShadowGenerator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9D8528CC18906415002A7A49 /* ShadowGeneratorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9D8528E018906415002A7A49 /* Build configuration list for PBXNativeTarget "ShadowGeneratorTests" */;
-			buildPhases = (
-				9D8528C918906415002A7A49 /* Sources */,
-				9D8528CA18906415002A7A49 /* Frameworks */,
-				9D8528CB18906415002A7A49 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9D8528D218906415002A7A49 /* PBXTargetDependency */,
-			);
-			name = ShadowGeneratorTests;
-			productName = ShadowGeneratorTests;
-			productReference = 9D8528CD18906415002A7A49 /* ShadowGeneratorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -224,11 +145,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Alexander Bekert";
-				TargetAttributes = {
-					9D8528CC18906415002A7A49 = {
-						TestTargetID = 9D8528AB18906415002A7A49;
-					};
-				};
 			};
 			buildConfigurationList = 9D8528A718906415002A7A49 /* Build configuration list for PBXProject "ShadowGenerator" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -244,7 +160,6 @@
 			projectRoot = "";
 			targets = (
 				9D8528AB18906415002A7A49 /* ShadowGenerator */,
-				9D8528CC18906415002A7A49 /* ShadowGeneratorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,14 +173,6 @@
 				9D8528C818906415002A7A49 /* Images.xcassets in Resources */,
 				9D8528C018906415002A7A49 /* Credits.rtf in Resources */,
 				9D8528C618906415002A7A49 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D8528CB18906415002A7A49 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D8528D818906415002A7A49 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,23 +190,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D8528C918906415002A7A49 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D8528DA18906415002A7A49 /* ShadowGeneratorTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9D8528D218906415002A7A49 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9D8528AB18906415002A7A49 /* ShadowGenerator */;
-			targetProxy = 9D8528D118906415002A7A49 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9D8528B818906415002A7A49 /* InfoPlist.strings */ = {
@@ -324,14 +215,6 @@
 				9D8528C518906415002A7A49 /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		9D8528D618906415002A7A49 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D8528D718906415002A7A49 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -431,46 +314,6 @@
 			};
 			name = Release;
 		};
-		9D8528E118906415002A7A49 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShadowGenerator.app/Contents/MacOS/ShadowGenerator";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShadowGenerator/ShadowGenerator-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ShadowGeneratorTests/ShadowGeneratorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		9D8528E218906415002A7A49 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShadowGenerator.app/Contents/MacOS/ShadowGenerator";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShadowGenerator/ShadowGenerator-Prefix.pch";
-				INFOPLIST_FILE = "ShadowGeneratorTests/ShadowGeneratorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -490,14 +333,7 @@
 				9D8528DF18906415002A7A49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		9D8528E018906415002A7A49 /* Build configuration list for PBXNativeTarget "ShadowGeneratorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D8528E118906415002A7A49 /* Debug */,
-				9D8528E218906415002A7A49 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
