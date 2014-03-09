@@ -14,14 +14,14 @@ Shadow generator for your *.png* pictures. Useful utility for 2D games developer
 
 The resulting shadows are placed near the original images with **shadow** suffix in filename.
 
-### What's special with filename?
+### What's special about filename?
 
-If original filename includes **@2x** then **shadow** suffix will be added right before *@2x*.
+If the original filename includes **@2x** then **shadow** suffix will be added right before *@2x*.
 Additionaly you can double blur radius for that pictures simply checking checkbox.
 
 For *hero@2x.png* the result filename is *hero-shadow@2x.png*
 
-If original filename includes **~** then **shadow** suffix will be added right before **~**.
+If the original filename includes **~** then **shadow** suffix will be added right before **~**.
 
 For *hero~ipad.png* the result filename is *hero-shadow~ipad.png*. But for *hero@2x~ipad.png* the result filename is *hero-shadow@2x~ipad.png*
 
