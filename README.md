@@ -25,6 +25,11 @@ If the original filename includes **~** then **shadow** suffix will be added rig
 
 For **hero~ipad.png** the result filename is **hero-shadow~ipad.png**. But for **hero@2x~ipad.png** the result filename is **hero-shadow@2x~ipad.png**
 
+In other cases **shadow** suffix will be appended to the filename.
+
+For **hero.png** the result filename is **hero-shadow.png**
+
+
 ### Why don't generate shadows at runtime?
 
 You definitely should try this. You can use code from [ShadowGenerator](https://github.com/win2l/shadow-generator/blob/master/ShadowGenerator/ShadowGenerator.m) class to turn the resulting **CGImageRef** to representation you need with very little changes. The transformation code should work on both iOS and OS X. 
