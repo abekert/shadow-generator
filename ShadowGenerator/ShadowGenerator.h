@@ -1,6 +1,4 @@
 #import <Quartz/Quartz.h>
-#import <ImageIO/ImageIO.h>
-#import <CoreServices/CoreServices.h>
 
 @interface ShadowGenerator : NSObject
 

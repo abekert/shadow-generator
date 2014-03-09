@@ -17,8 +17,6 @@
 		9D8528E518906A94002A7A49 /* DragAndDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8528E418906A94002A7A49 /* DragAndDropImageView.m */; };
 		9D8528E818907083002A7A49 /* ShadowGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8528E718907083002A7A49 /* ShadowGenerator.m */; };
 		9D8528EC189071D1002A7A49 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8528EB189071D1002A7A49 /* QuartzCore.framework */; };
-		9D8528EE18909490002A7A49 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8528ED18909490002A7A49 /* ImageIO.framework */; };
-		9D8528F01890949D002A7A49 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8528EF1890949D002A7A49 /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +36,7 @@
 		9D8528E418906A94002A7A49 /* DragAndDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragAndDropImageView.m; sourceTree = "<group>"; };
 		9D8528E618907083002A7A49 /* ShadowGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowGenerator.h; sourceTree = "<group>"; };
 		9D8528E718907083002A7A49 /* ShadowGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowGenerator.m; sourceTree = "<group>"; };
-		9D8528E91890717C002A7A49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9D8528EB189071D1002A7A49 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		9D8528ED18909490002A7A49 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		9D8528EF1890949D002A7A49 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D8528F01890949D002A7A49 /* CoreServices.framework in Frameworks */,
-				9D8528EE18909490002A7A49 /* ImageIO.framework in Frameworks */,
 				9D8528EC189071D1002A7A49 /* QuartzCore.framework in Frameworks */,
 				9D8528B018906415002A7A49 /* Cocoa.framework in Frameworks */,
 			);
@@ -79,10 +72,7 @@
 		9D8528AE18906415002A7A49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D8528EF1890949D002A7A49 /* CoreServices.framework */,
-				9D8528ED18909490002A7A49 /* ImageIO.framework */,
 				9D8528EB189071D1002A7A49 /* QuartzCore.framework */,
-				9D8528E91890717C002A7A49 /* CoreGraphics.framework */,
 				9D8528AF18906415002A7A49 /* Cocoa.framework */,
 				9D8528B418906415002A7A49 /* Foundation.framework */,
 			);
