@@ -66,8 +66,7 @@
     original = [[NSImage alloc] initWithContentsOfURL:lastUrl];
     shadow = [[NSImage alloc] initWithContentsOfURL:lastShadowUrl];
     
-    segmentedControl.selectedSegment = 1;
-    imageView.image = shadow;
+    segmentedControl.selectedSegment = ORIGINAL_CONTROL;
 }
 
 - (CGFloat)blurRadiusForUrl:(NSURL *)url
