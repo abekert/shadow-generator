@@ -16,10 +16,10 @@ The resulting shadows are placed near the original images with **shadow** suffix
 
 ### What's special about filename?
 
-If the original filename includes **@2x** then **shadow** suffix will be added right before *@2x*.
+If the original filename includes **@2x** then **shadow** suffix will be added right before **@2x**.
 Additionaly you can double blur radius for that pictures simply checking checkbox.
 
-For **hero@2x<span></span>.png** the result filename is **hero-shadow@2x<span></span>.png**
+For **<span></span>hero@2x.png** the result filename is **<span></span>hero-shadow@2x.png**
 
 If the original filename includes **~** then **shadow** suffix will be added right before **~**.
 
