@@ -3,7 +3,7 @@ shadow-generator
 
 Shadow generator for your **.png** pictures. Useful utility for 2D games developers.
 
-### What does it do with my picture?
+### What does it exactly do with my picture?
 
 1. Gets your picture by drag'n'drop.
 2. Turns your picture to monochrome.
@@ -15,6 +15,12 @@ Shadow generator for your **.png** pictures. Useful utility for 2D games develop
 The resulting shadows are placed near the original images with **shadow** suffix in filename.
 
 ### What's special about filename?
+
+Application is pretty intelligent with detecting picture's target device by its [filename](http://stackoverflow.com/a/19475728/1322703).
+So you can generate shadows for your original pictures and put them together to your app bundle.
+When you need to load your picture and shadow, you should look your app bundle for **picture** and **picture-shadow**. Automatic blur radius doubling provides equal results for retina and non-retina images.
+
+#### How does it exactly work?
 
 If the original filename includes **@2x** then **shadow** suffix will be added right before **@2x**.
 Additionaly you can double blur radius for that pictures simply checking checkbox.
