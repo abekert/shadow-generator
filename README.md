@@ -1,4 +1,4 @@
-shadow-generator
+Shadow Generator
 ================
 
 Shadow generator for your **.png** pictures. Useful utility for 2D games developers.
