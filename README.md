@@ -1,9 +1,13 @@
 Shadow Generator
 ================
 
-Shadow generator for your **.png** pictures. Useful utility for 2D games developers.
+Shadow generator for your **.png** pictures. The utility was created to acheive the parallax effect, but you can use it whatever you would like to.
+
+![Parallax](http://i64.tinypic.com/2uizyg1.gif "Parallax")
 
 ### What does it exactly do with my picture?
+
+![Process](http://i63.tinypic.com/35lcjuq.png "Process")
 
 1. Gets your picture by drag'n'drop.
 2. Turns your picture to monochrome.
